@@ -1,0 +1,37 @@
+body {
+	background-color: #ccccff;	
+}
+
+#header {
+	width: 50%;
+	font-size: 16pt;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid #004de6 3pt;
+	border-radius: 5px;
+	text-align: center;
+	background-color: #adc2eb;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #adc2eb;
+	border: solid #004de6 2pt;
+	border-radius: 3px;
+}
+
+#table {
+	margin-left: auto;
+	margin-right: auto;
+	float: auto;
+	padding: 5px;
+}
+
+#button {
+	border: none;
+	background-color: #adc2eb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

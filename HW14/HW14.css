@@ -1,0 +1,126 @@
+body {
+	background-image: url("galaxy.jpg");
+}
+
+header {
+	background-color: #d1b3ff;
+	border: solid white 2pt;
+	border-radius: 20px;
+	color: #666699;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	font-weight: bold;
+}
+
+table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	color: #666699;
+}
+
+#portal1 {
+	background-color: #99c2ff;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: solid white 2pt;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portal2 {
+	background-color: #ffdd99;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: solid white 2pt;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portal3 {
+	background-color: #ff9999;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: solid white 2pt;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portal4 {
+	background-color: #ffc299;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: solid white 2pt;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portal5 {
+	background-color: #b3ffec;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	border: solid white 2pt;
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #666699;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.d {
+	background-color: #d1b3ff;
+	border: solid white 2pt;
+	border-radius: 20px;
+	color: #666699;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	font-weight: bold;
+}
+
+.r {
+	background-color: #d1b3ff;
+	border: solid white 2pt;
+	border-radius: 20px;
+	color: #666699;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 15%;
+	font-weight: bold;
+}
+
+#button {
+	background-color: #d1b3ff;
+	border: solid white 2pt;
+	border-radius: 20px;
+	color: #666699;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	font-weight: bold;
+}

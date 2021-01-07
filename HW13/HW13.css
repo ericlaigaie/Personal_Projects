@@ -1,0 +1,53 @@
+body {
+	background-image: url("mountains.jpg");
+	padding: 60px 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#middle {
+	background-color: #c6ecd9;
+	border: solid #b366ff 3pt;
+	border-radius: 15px;
+	margin: auto;
+	width: 45%;
+	padding: 10px;
+}
+
+.disabled {
+	cursor: none;
+	pointer-events: none;
+}
+
+#header {
+	color: #6666cc;
+	text-align: center;
+	padding: 10px;
+	background-color: #8cd9b3;
+	border: solid #b366ff 3pt;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	font-size: 20pt;
+}
+
+table {
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	text-align: center;
+	padding: 10px;
+}
+
+button {
+	height: 75px;
+	width: 75px;
+	font-size: 30pt;
+	background-color: #53c68c;
+	color: #6666cc;
+	border: solid #b366ff 2pt;
+	border-radius: 20px;
+}

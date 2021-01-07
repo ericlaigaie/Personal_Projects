@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<head>
+	<title>Mortgage Calculator</title>
+	<meta charset="UTF-8">
+
+	<meta name="description" content="Mortgage Calculator">
+	<meta name="author" content="Eric Laigaie">
+
+	<link href="HW6.css" rel="stylesheet">
+	<script src="HW6.js" defer></script>
+</head>
+
+<body>
+
+<div id="header">
+
+<h1>Mortgage Calculator</h1>
+<h3>Input your Principal Amount, Interest Rate, and Loan Period</h3>
+
+</div>
+
+
+<div id="body">
+
+	<form>
+	<table id="table">
+
+		<tr><td>Principle Amount:</td><td><input id="p"></td></tr>
+
+        	<tr><td>Interest Rate:</td><td><input id="i"></td></tr>
+
+        	<tr><td>Months to Pay:</td><td><input id="n"></td></tr>
+
+		<tr>
+		<td><input type="button" value="Calculate" id="calc" onclick="calculate()"></td>
+		<td><input type="reset" value="Clear" id="clear" onclick="clean()"></td>
+		</tr>
+	
+	</table>
+	</form>
+
+	</div>
+
+	<br />
+
+	<div id="results">
+		<table>
+
+		        <tr>
+			<td>Monthly Payment:</td>
+			<td>Sum of Payments:</td>
+			<td>Total Amount Paid in Interest:</td>
+			</tr>
+			
+			<tr>
+			<td id = "payment"></td>
+			<td id = "sum"></td>
+			<td id = "total"></td>
+			</tr>
+
+		</table>
+	</div>
+</body>
+</html>

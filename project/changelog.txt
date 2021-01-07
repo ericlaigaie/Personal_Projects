@@ -1,0 +1,51 @@
+11/2/2020 - 5:11 pm - Eric Laigaie
+	-- I added pretty bare webpages for the navigation tabs.
+	-- I added some css formatting to the modules on some pages just to give a visual of what I was thinking. Feel free to change
+		whatever you want.
+	-- It might be more efficient to make the modules clickable. Once you click on them, you are taken to page dedicated to the
+		content of that module.
+	-- I also added a short bio in the Contact Us page because the Phase 3 outlines tell us to.
+
+	11/2/2020 6:10pm - Elena Liem
+			-- Made logo
+
+11/2/2020 - 8:37 pm - Eric Laigaie
+	-- Added the logo in the top left of the website along with the href link.
+
+11/2/2020 - 10:31pm - Vishal Patel
+	-- Added contact information and slightly formatted contact us page.
+
+11/11/2020 - 10:30am - Elena Liem
+	  -- Reformatted navigation bar to top
+		-- added css to most elements
+				- font/colors/borders
+		-- added graphics divs for later content
+		-- need to fix spacing and margins on some divs
+
+11/11/2020 - 8:32 pm - Eric Laigaie
+	-- Added slideshow onto homepage
+	-- Left ability to place href link onto each slide picture later
+	-- made "homepage.js", a script for index.html
+
+11/11/2020 - 10:20pm - Vishal Patel
+    -- Added Progress Input page
+    -- Fixed formatting
+
+
+11/29/2020 - 3:40pm - Eric Laigaie
+	-- Added login/register php forms
+	-- Changed .html files to .php, updated href links
+
+12/2/2020 - 4:00am - Elena Liem
+	-- added embedded videos
+	-- updated fonts and colors
+	-- graphics for diet/exercise
+
+12/5/2020 - 10:00pm - Elena Liem
+	-- updated contact.html styling
+	-- added new tabs
+
+12/6/2020 - 12:30pm - Elena Liem
+	-- updated contact.html styling
+	-- added new tabs
+	-- dhtml dropdown nav for nutrition

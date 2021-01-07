@@ -1,0 +1,27 @@
+body {
+	background-color: #fff2e6;
+	text-align: center;
+}
+
+#header {
+	background-color: #e6f7ff;
+}
+
+#body {
+	background-color: #e6e6ff;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#reg {
+	background-color: #ffccf2;
+	border: solid white 2pt;
+}
+
+#clear {
+	background-color: #ffccf2;
+	border: solid white 2pt;
+}

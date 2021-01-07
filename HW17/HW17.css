@@ -1,0 +1,51 @@
+body {
+	background-image: url('gusandeddy.png');
+	padding: 60px 0;
+}
+
+header {
+	background-color: #ffe6ff;
+	border: solid #ff33ff 3pt;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	color: #33bbff;
+}
+
+table {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	color: #33bbff;
+	font-weight: bold;
+}
+
+#form {
+	background-color: #ffe6ff;
+	border: solid #ff33ff 3pt;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	color: #33bbff;
+}
+
+#ajax-area {
+	background-color: #ffe6ff;
+	border: solid #ff33ff 3pt;
+	border-radius: 30px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	color: #33bbff;
+}
+
+.button {
+	background-color: #ffccff;
+	border: solid #ff33ff 1pt;
+	border-radius: 20px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Tic-Tac-Toe</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Tic-Tac-Toe Game">
+	<meta name="author" content="Eric Laigaie">
+	<link href="X2.css" rel="stylesheet">
+	<script type="text/javascript" src="X2.js"></script>
+</head>
+
+<body>
+
+<div id="middle">
+
+<br>
+
+<div id="header"> <h2> Tic-Tac-Toe </h2> </div>
+
+<br>
+
+<table>
+	<tr>
+		<td> <input class="xo" type="button" id="one_one" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="one_two" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="one_three" value=" " onclick="turned(this.id)"> </td>
+	</tr>
+
+	<tr>
+		<td> <input class="xo" type="button" id="two_one" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="two_two" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="two_three" value=" " onclick="turned(this.id)"> </td>
+	</tr>
+
+	<tr>
+		<td> <input class="xo" type="button" id="three_one" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="three_two" value=" " onclick="turned(this.id)"> </td>
+		<td> <input class="xo" type="button" id="three_three" value=" " onclick="turned(this.id)"> </td>
+	</tr>
+</table>
+
+<br>
+
+<div id="scoreboard">
+	<table>
+		<tr>
+		<td> X : <span id="x_wins"> 0 </span> </td>
+		<td> O : <span id="o_wins"> 0 </span> </td>
+		</tr>
+
+		<tr> <td colspan="2"> <br /> </td> </tr>
+
+		<tr> <td colspan="2"> <input id="button" type="button" onClick="clean()" value="Reset Game"> </td> </tr>
+	</table>
+</div>
+
+<br>
+
+</div>
+
+</body>
+
+		
+
+</html>

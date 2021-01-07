@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Self-Grading Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Self-Grading Quiz">
+	<meta name="author" content="Eric Laigaie">
+	<link href="HW10.css" rel="stylesheet">
+	<script type="text/javascript" src="HW10.js"></script>
+</head>
+
+<body>
+
+<div id="header"><h1>Web Programming Quiz</h1></div>
+
+<p><br /></p>
+
+<table>
+	<form>  
+		<tr><td colspan=2><br /></td></tr>
+		<tr><th colspan=2> True / False </th></tr>
+
+		<tr><td rowspan=2> <label> "URL" stands for "Universal Reference Link". </label> </td>
+			<td> 	 <label> True  <input type="radio" id="true_one" />   </label> </td> </tr>
+			<tr><td> <label> False <input type="radio" id="false_one" /> </label> </td> </tr>
+		<tr><td colspan=2><br /></td></tr>
+		<tr><td rowspan=2> <label> An Apple MacBook is an example of a Linux system. </label> </td>
+			<td> 	 <label> True  <input type="radio" id="true_two" />   </label> </td> </tr>
+			<tr><td> <label> False <input type="radio" id="false_two" /> </label> </td> </tr>
+
+
+		<tr><td colspan=2><br /></td></tr>
+
+		<tr><th colspan=2> Multiple Choice</th></tr>
+
+		<tr><td rowspan=4> <label> Which of these do NOT contribute to packet delay in a packet switching network? </label> </td>
+			<td> <label> Processing delay at a router <input id="a_one" type="checkbox" /> </label> </td> </tr>
+			<tr><td> <label> CPU workload on a client <input id="b_one" type="checkbox" /> </label> </td> </tr>
+			<tr><td> <label> Transmission delay along a communication link <input id="c_one" type="checkbox" /> </label> </td> </tr>
+			<tr><td> <label> Propagation delay <input id="d_one" type="checkbox" /> </label> </td> </tr>
+		<tr><td colspan=2><br /></td></tr>
+		<tr><td rowspan=4> <label> This Internet layer is reponsible for creating packets that move across the network. </label> </td>
+			<td> <label> Physical <input id="a_two" type="checkbox" /> </label> </td> </tr>
+			<tr> <td> <label> Data Link <input id="b_two" type="checkbox" /> </label> </td> </tr>
+			<tr> <td> <label> Network <input id="c_two" type="checkbox" /> </label> </td> </tr>
+			<tr> <td> <label> Transport <input id="d_two" type="checkbox" /> </label> </td> </tr>
+
+
+		<tr><td colspan=2><br /></td></tr>
+
+		<tr><th colspan=2> Fill in the Blank </th></tr>
+		
+		<tr><td> <label> ______ is a networking protocol that runs over TCP/IP, and governs communication between web browsers and web server. </label> </td>
+		<td> <textarea id="blank_one" rows="4" cols="36"></textarea></th></tr>
+		<tr><td colspan=2><br /></td></tr>
+		<tr><td> <label> A small icon displayed in a browser tab that identifies a website is called a ______. </label> </td>
+		<td> <textarea id="blank_two" rows="4" cols="36"></textarea></th></tr>
+
+
+		<tr><td colspan=2><br /></td></tr>
+
+		<tr> <td> <input id="button" type="button" value="Grade" onclick="grader()" /> </td>
+		<td> <input id="button" type="reset" value="Clear" /></td></tr>
+	</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,41 @@
+body {
+	background-image: url("computer.jpg");
+}
+
+header {
+	text-align: center;
+	color: #003d66;
+	width: 70%;
+	border: solid #6600cc 3pt;
+	border-radius: 25px;
+	background-color: #e6f5ff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button {
+	border: solid #6600cc 1pt;
+	border-radius: 15px;
+	background-color: #006bb3;
+	color: white;
+}
+
+#box {
+	text-align: center;
+	width: 60%;
+	border: solid #6600cc 3pt;
+	border-radius: 25px;
+	background-color: #e6f5ff;
+	margin-left: auto;
+	margin-right: auto;
+	color: #003d66;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	font-size: 20pt;
+}

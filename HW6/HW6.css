@@ -1,0 +1,38 @@
+#header {
+	background-color: #e6b3ff;
+	color: #006080;
+	text-align: center;
+}
+
+#body {
+	background-color: #ffccff;
+	text-align: center;
+}
+
+#results {
+	background-color: #ffb3e6;
+	text-align: center;
+}
+
+body {
+	background-color: #ccf2ff;
+	text-align: center;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+}
+
+#calc {
+	background-color: #00ace6;
+	border: solid white 2pt;
+	color: white;
+}
+
+#clear {
+	background-color: #00ace6;
+	border: solid white 2pt;
+	color: white;
+}

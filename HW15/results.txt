@@ -1,0 +1,5 @@
+new:30
+uniequ:30
+newer:80
+last:40
+kate:50

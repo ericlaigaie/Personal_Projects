@@ -1,0 +1,43 @@
+#contactTitle{
+  font-family: "Oswald", sans-serif;
+  color:#57605f;
+
+
+}.modules{
+	margin: 0 auto;
+	width: 50%;
+	background-color: #f2ffe6;
+	border: solid #009900 2pt;
+	border-radius: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+}#contactBody{
+  	background-color: white;
+  	text-align: center;
+}h4{
+  font-family: "Oswald";
+  font-weight: bold;
+  font-size: 20PX;
+
+}p{
+  font-family: "Source Sans Pro";
+}
+
+#contactForm input[type="text"]{
+	margin: 0.5em;
+	width: 70%;
+}
+
+
+#contactForm textarea{
+	max-width: 70%;
+	min-width: 70%;
+	width: 70%;
+	margin: 0.5em;
+}
+
+
+#contactForm input[type="button"], input[type="reset"]{
+	margin: 0.5em;
+}
+

@@ -1,0 +1,69 @@
+body {
+	background-image: url("zion.jpg");
+	padding: 120px 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+#middle {
+	background-color: #cceeff;
+	border: solid #ffc266 3pt;
+	border-radius: 8px;
+	margin: auto;
+	width: 45%;
+	padding: 10px;
+}
+
+#header {
+	color: #000099;
+	text-align: center;
+	padding: 10px;
+	background-color: #99b3e6;
+	border: solid #ffc266 3pt;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	font-size: 20pt;
+}
+
+table {
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	text-align: center;
+}
+
+#button {
+	color: #ffc266;
+	padding: 10px;
+	background-color: #5c85d6;
+	border: solid #ffc266 2pt;
+	border-radius: 8px;
+}
+
+#scoreboard {
+	font-size: 16pt;
+	color: #000099;
+	padding: 10px;
+	background-color: #99b3e6;
+	border: solid #ffc266 3pt;
+	border-radius: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+.xo {
+	font-size: 32pt;
+	background-color: #006699;
+	color: #ffc266;
+	text-align: center;
+	border: None;
+	width: 100px;
+	height: 100px;
+	border: solid #ffc266 1pt;
+	border-radius: 10px;
+}

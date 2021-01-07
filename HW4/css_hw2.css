@@ -1,0 +1,74 @@
+#body {
+	background-color: teal;
+}
+
+#picture {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%
+}
+
+#contact {
+	color: blue;
+	text-align: center;
+	background-color: #ffb3b3;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}
+
+#education {
+	color: blue;
+	text-align: center;
+	background-color: #ffd9b3;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}
+
+#work {
+	color: blue;
+	text-align: center;
+	background-color: #ffffb3;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+
+}
+
+#achievements {
+	color: blue;
+	text-align: center;
+	background-color: #c2f0c2;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}
+
+#interests {
+	color: blue;
+	text-align: center;
+	background-color: #b3fff0;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}
+
+#links {
+	color: blue;
+	text-align: center;
+	background-color: #b3e0ff;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}
+
+#signature {
+	color: blue;
+	text-align: center;
+	background-color: #ccb3ff;
+	border:2px solid white;
+	padding:5px;
+	margin:5px;
+}

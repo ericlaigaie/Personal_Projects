@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Puzzle</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Puzzle">
+	<meta name="author" content="Eric Laigaie">
+	<link href="HW11.css" rel="stylesheet">
+	<script type="text/javascript" src="HW11.js"></script>
+</head>
+
+<body onload="imager()">
+
+<div id="header"> <h1> Jigsaw Puzzle </h1> </div>
+
+<br>
+
+<div id="ec">
+	<p> Time Elapsed: <span id="time"> 0 </span> </p>
+	<p> <input id="button" type="button" onclick="done()" value="Done" /></p>
+</div>
+
+<br>
+
+<div id="backer"> <img id="backer" src="HW11images/puzzleback.gif" alt="puzzle"> </div>
+
+<div id="bank">
+	<img id="img1" src="HW11images/puzzle1/img1-1.jpg" style="position:absolute;top:550px;left:445px;" onmousedown="grabbing(event)">
+	<img id="img2" src="HW11images/puzzle1/img1-2.jpg" style="position:absolute;top:550px;left:550px;" onmousedown="grabbing(event)">
+	<img id="img3" src="HW11images/puzzle1/img1-3.jpg" style="position:absolute;top:550px;left:655px;" onmousedown="grabbing(event)">
+	<img id="img4" src="HW11images/puzzle1/img1-4.jpg" style="position:absolute;top:550px;left:760px;" onmousedown="grabbing(event)">
+	<img id="img5" src="HW11images/puzzle1/img1-5.jpg" style="position:absolute;top:550px;left:865px;" onmousedown="grabbing(event)">
+	<img id="img6" src="HW11images/puzzle1/img1-6.jpg" style="position:absolute;top:550px;left:970px;" onmousedown="grabbing(event)">
+	<img id="img7" src="HW11images/puzzle1/img1-7.jpg" style="position:absolute;top:655px;left:445px;" onmousedown="grabbing(event)">
+	<img id="img8" src="HW11images/puzzle1/img1-8.jpg" style="position:absolute;top:655px;left:550px;" onmousedown="grabbing(event)">
+	<img id="img9" src="HW11images/puzzle1/img1-9.jpg" style="position:absolute;top:655px;left:655px;" onmousedown="grabbing(event)">
+	<img id="img10" src="HW11images/puzzle1/img1-10.jpg" style="position:absolute;top:655px;left:760px;" onmousedown="grabbing(event)">
+	<img id="img11" src="HW11images/puzzle1/img1-11.jpg" style="position:absolute;top:655px;left:865px;" onmousedown="grabbing(event)">
+	<img id="img12" src="HW11images/puzzle1/img1-12.jpg" style="position:absolute;top:655px;left:970px;" onmousedown="grabbing(event)">
+</div>
+
+
+</body>
+</html>

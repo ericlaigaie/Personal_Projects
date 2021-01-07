@@ -1,0 +1,50 @@
+#img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: solid #ff9966 2px;
+	width: 640px;
+	height: 480px;
+	border-radius: 4px;
+}
+
+body {
+	background-image: url("waterfalls.jpg");
+	text-align: center;
+	background-color: #cccccc;
+}
+
+#header {
+	background-color: #ffddcc;
+	text-align: center;
+	font-size: 14pt;
+	color: #996633;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid #ff9966 2px;
+	border-radius: 4px;
+}
+
+table {
+	width: 40;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+button {
+	background-color: #ffddcc;
+	color: #996633;
+	border: solid #ff9966 1pt;
+	border-radius: 4px;
+	width: 100px;
+}
+
+#body {
+	margin-left: auto;
+	border: solid #ff9966 3pt;
+	border-radius: 20px;
+	margin-right: auto;
+	width: 50%;
+	background-color: #ffbf80;
+}

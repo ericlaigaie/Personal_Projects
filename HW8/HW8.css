@@ -1,0 +1,44 @@
+#randImg {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: solid white 2px;
+	width: 640px;
+	height: 480px;
+	border-radius: 4px;
+}
+
+body {
+	background-color: #d9b3ff;
+	text-align: center;
+}
+
+#header {
+	background-color: #adadeb;
+	text-align: center;
+	font-size: 16pt;
+	color: #000099;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid white 1px;
+	border-radius: 4px;
+}
+
+#caption {
+	background-color: #b3d9ff;
+	color: #000099;
+	font-size: 14pt;
+	border: solid white 1pt;
+	padding: 5px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+}
+
+#refresh {
+	background-color: #99ff99;
+	color: #000099;
+	border: solid white 2px;
+}
