@@ -1,0 +1,20 @@
+body {
+	background-color: #cce0ff;
+}
+
+#header {
+	background-color: #80b3ff;
+	color: #47476b;
+	border: solid black 2pt;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+td {
+	background-color: #80b3ff;
+	color: #47476b;
+	border: solid black 2pt;
+	border-radius: 20px;
+}
