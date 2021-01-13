@@ -2,10 +2,17 @@ body {
 	background-color: #cce0ff;
 }
 
+table {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
+
 #header {
-	background-color: #80b3ff;
+	text-align: center;
+	background-color: #ebf0fa;
 	color: #47476b;
-	border: solid black 2pt;
+	border: solid #2e5cb8 2pt;
 	border-radius: 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -13,8 +20,9 @@ body {
 }
 
 td {
-	background-color: #80b3ff;
+	text-align: center;
+	background-color: #ebf0fa;
 	color: #47476b;
-	border: solid black 2pt;
+	border: solid #2e5cb8 1pt;
 	border-radius: 20px;
 }
