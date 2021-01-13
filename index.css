@@ -1,6 +1,10 @@
 body {
 	background-color: #cce0ff;
 	background-image: url("austin.jpg");
+	padding: 120px 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
 }
 
 table {
